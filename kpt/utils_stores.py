@@ -56,7 +56,6 @@ async def terabyte_price(page: Page, url: str) -> Tuple[float, float]:
     return (clean_pix, clean_card)
 
 
-
 # Pichau Features
 
 
