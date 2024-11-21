@@ -3,9 +3,9 @@ A Python script to fetch product prices from Brazilian online stores: Terabyte, 
 
 ## Features
 Fetch product prices from:
-Terabyte
-Pichau
-Kabum
+-Terabyte
+-Pichau
+-Kabum
 Simple and modularized structure for easy customization.
 
 ## Installation
