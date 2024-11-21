@@ -3,8 +3,6 @@ from typing import Iterable, TypedDict
 
 class Teste(TypedDict):
     url: str
-    
-    
 
         
 async def _process_sites(product_list: Iterable):
@@ -19,7 +17,7 @@ async def _process_sites(product_list: Iterable):
     
     
     async with async_playwright() as p:
-        browser = await p.firefox.launch(headless=False)
+        browser = await p.firefox.launch(headless=True)
         tasks = []
         results = []
         
