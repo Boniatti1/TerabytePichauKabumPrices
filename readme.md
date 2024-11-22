@@ -6,7 +6,6 @@ Fetch product prices from:
 - Terabyte
 - Pichau
 - Kabum
-Simple and modularized structure for easy customization.
 
 ## Installation
 
