@@ -1,26 +1,21 @@
 # TerabytePichauKabumPrices
 A Python script to fetch product prices from Brazilian online stores: Terabyte, Pichau, and Kabum.
+Um script escrito em Python para procurar preços das lojas: Terabyte, Pichau e Kabum
 
-## Features
-Fetch product prices from:
-- Terabyte
-- Pichau
-- Kabum
+## Instalação
 
-## Installation
-
-1. Install the required dependencies using pip:
+1. Instale as dependências:
 
    pip install playwright
 
-2. Install the Firefox browser for Playwright:
+2. Instale o Firefox para o Playwright:
 
    playwright install firefox
+   
+Isso configura o ambiente necessário para rodar o script.
 
-This will set up the necessary environment for running the scraper.
 
-
-## Example
+## Exemplo
 
 ```python
 from kpt.price_scraper import process_sites
@@ -62,7 +57,7 @@ pprint(results)
 ```
 
 
-### Result:
+### Resultado
 
 ``` 
 [(2299.9, 2705.76),
@@ -74,11 +69,11 @@ pprint(results)
  (2999.9, 3529.29)]
 ```
 
-## Known Issues
-- Error handling is not fully implemented. We need to properly manage exceptions and edge cases in the scraping process
+## Problemas conhecidos
+- O gerenciamento de erros causados for falta de estoque, por exemplo, não está totalmente implementado. Farei isso futuramente.
 
-## License
+## Licença
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-Thanks to Playwright for the automation library.
+## Agradecimentos
+Obrigado ao Playwright pela incrível biblioteca de automação
