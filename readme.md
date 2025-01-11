@@ -1,6 +1,5 @@
 # TerabytePichauKabumPrices
-A Python script to fetch product prices from Brazilian online stores: Terabyte, Pichau, and Kabum.
-Um script escrito em Python para procurar preços das lojas: Terabyte, Pichau e Kabum
+Um script escrito em Python para procurar preços/preço das lojas: Terabyte, Pichau e Kabum
 
 ## Instalação
 
